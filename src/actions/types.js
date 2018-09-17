@@ -1,0 +1,15 @@
+export const GET_POLICY_DESC = 'get_policy_desc';
+export const GET_POLICY_QUESTIONS = 'get_policy_questions';
+export const SET_INDUSTRY = 'set_industry';
+export const SET_POLICY = 'set_policy';
+export const GET_STARTING_INFO = 'get_starting_info';
+export const SET_NAIC_2_CODES = 'set_naic_2_codes';
+export const SET_NAIC_4_CODES = 'set_naic_4_codes';
+export const GET_SUB_INDUSTRY = 'get_sub_industry';
+export const GET_POLICY_DETAILS = 'get_policy_details';
+export const CREATE = 'create';
+export const CREATE_SUCCESS = 'create_success';
+export const CREATE_FAILURE = 'create_failure';
+export const SET_POLICY_CODE = 'set_policy_code';
+export const GET_GL_CODE = 'get_gl_code';
+export const SET_FORM_INDUSTRY_INPUT = 'set_form_industry_input'

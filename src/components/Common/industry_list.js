@@ -1,0 +1,22 @@
+export default [
+  { value: 11, title: 'Agriculture, Forestry, Fishing and Hunting' },
+  { value: 21, title: 'Mining, Quarrying, and Oil and Gas Extraction' },
+  { value: 22, title: 'Utilities' },
+  { value: 23, title: 'Construction' },
+  { value: 31, title: 'Manufacturing' },
+  { value: 42, title: 'Wholesale Trade' },
+  { value: 44, title: 'Retail Trade' },
+  { value: 48, title: 'Transportation and Warehousing' },
+  { value: 51, title: 'Information' },
+  { value: 52, title: 'Finance and Insurance' },
+  { value: 53, title: 'Real Estate and Rental and Leasing' },
+  { value: 54, title: 'Professional, Scientific, and Technical Services' },
+  { value: 55, title: 'Management of Companies and Enterprises' },
+  { value: 56, title: 'Administrative and Support and Waste Management and Remediation Services' },
+  { value: 61, title: 'Educational Services' },
+  { value: 62, title: 'Health Care and Social Assistance' },
+  { value: 71, title: 'Arts, Entertainment, and Recreation' },
+  { value: 72, title: 'Accommodation and Food Services' },
+  { value: 81, title: 'Other Services (except Public Administration)' },
+  { value: 92, title: 'Public Administration' }
+];

@@ -1,0 +1,57 @@
+<div style={{ display: 'flex', flexDirection: 'row', fexWrap: 'wrap' }}>
+  <div style={{ flex: 1, position: 'sticky', alignSelf: 'flex-start', top: '5em' }}>
+    {/*Where Policy is selected*/}
+    <SideList selectPolicy={this.selectPolicy} currentPolicy={this.state.policy} />
+  </div>
+  <div style={{ flex: 3, marginLeft: '2em' }}>
+    <Paper elevation={1} style={{ padding: '2em', marginBottom: '5em' }}>
+      <div style={{ maxWidth: '100%' }}>
+        <Typography variant="headline" component="h2" gutterBottom>
+          {description.policy_name} for
+        </Typography>
+        <Typography variant="display1" component="h2" gutterBottom>
+          {'TO-DO selected_industry'}
+        </Typography>
+        <Typography variant="title" component="h3" gutterBottom>
+          Description
+        </Typography>
+        <Typography gutterBottom>{this.props.description.desc}</Typography>
+        <Typography variant="title" component="h3" gutterBottom>
+          Fine Print
+        </Typography>
+        <Typography gutterBottom>{this.props.description.limits}</Typography>
+      </div>
+      <Examples props={examples} />
+      <Enhancements props={enchancements} />
+      <Exlcusions props={exclusions} />
+      <div>
+        <Typography variant="title" component="h3" gutterBottom>
+          Dummy
+        </Typography>
+        <Typography gutterBottom>{this.props.description.dummy}</Typography>
+      </div>
+    </Paper>
+  </div>
+  <div style={{ flex: 1.25, position: 'sticky', alignSelf: 'flex-start', top: '5em', padding: '1em' }}>
+    <form onSubmit={handleSubmit}>
+      <div>
+        <Typography variant="subheading" gutterBottom>
+          Interested in what YOU pay for <br /> {this.props.description.title} ?
+        </Typography>
+      </div>
+      <div>
+        <button type="submit" className="next">
+          Get quote estimate
+        </button>
+      </div>
+      <div>
+        <Typography>Go back</Typography>
+      </div>
+      <div>
+        <button type="button" className="previous" onClick={previousPage}>
+          Previous
+        </button>
+      </div>
+    </form>
+  </div>
+</div>

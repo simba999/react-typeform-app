@@ -1,0 +1,15 @@
+.d-block {
+  display: block;
+}
+
+.d-block > label {
+  padding-left: 0;
+}
+
+.d-block > div {
+  margin-top: 0.5em;
+}
+
+#QuoteForm .d-block {
+  display: flex;
+}
